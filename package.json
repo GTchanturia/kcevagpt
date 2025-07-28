@@ -34,7 +34,7 @@
 		"@sveltejs/package": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@tailwindcss/forms": "^0.5.9",
-		"@tailwindcss/typography": "^0.5.15",
+		"@tailwindcss/typography": "^0.5.16",
 		"@tailwindcss/vite": "^4.0.0",
 		"publint": "^0.3.2",
 		"svelte": "^5.0.0",
@@ -44,5 +44,14 @@
 	},
 	"keywords": [
 		"svelte"
-	]
+	],
+	"dependencies": {
+		"@google/generative-ai": "^0.24.1",
+		"@paypal/checkout-server-sdk": "^1.0.3",
+		"@supabase/ssr": "^0.6.1",
+		"@supabase/supabase-js": "^2.52.1",
+		"daisyui": "^5.0.48",
+		"lucide-svelte": "^0.528.0",
+		"stripe": "^18.3.0"
+	}
 }
